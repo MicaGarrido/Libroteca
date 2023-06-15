@@ -1,9 +1,11 @@
 :root{
     --blanco: #ffffff;
-    --oscuro: #2274A5;
-    --principal: #301A4B;
-    --secundario: #CBB3BF;
-    --acento: #E3D985;
+    --oscuro: #301A4B;
+    --principal: #ABC8C0;
+    --secundario: #FFCAB1;
+    --calido: #CA907E;
+    --verde: #9EE493;
+    --acento: #FF9F1C;
     --gris: #817F75;
 
 }
@@ -12,7 +14,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color:beige ;
+    background-color:var(--secundario) ;
     color:var(--gris);
     font-size: 16px; /* 1rem = 10 px 1em = 16px*/
 }
@@ -20,10 +22,10 @@ h1{
     font-family:arial,sans-serif ;
     font-size: 3.8rem; 
     text-align:center; 
-    color: var(--oscuro);
+    color: var(--acento);
 }
 h2{
-    color: var(--oscuro);
+    color: var(--gris);
     font-size: 3rem;
     text-align: center;
 }
@@ -39,6 +41,11 @@ p{
     margin: auto;
     padding: 20px;
     
+}
+.brand{
+  color: #FF9F1C;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90px;
 }
 .row {
     display: flex;
@@ -68,6 +75,7 @@ p{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   
@@ -100,11 +108,13 @@ a {
 
 .nav-links a:hover{
     background-color: var(--acento);
+    color: var(--oscuro);
 }
   
   
 .button-menu-toggle {
     display: none;
+    background-color: var(--verde);
   }
 
   @media (max-width: 768px) {

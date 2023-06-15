@@ -156,6 +156,10 @@ a {
     justify-content: center;
   }
 
+  .greeting{
+    text-align: center;
+  }
+
   footer{
     display: flex;
     width: 100%;

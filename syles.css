@@ -163,12 +163,14 @@ a {
 
   main{
     display: flex;
+    text-align: center;
     justify-content: center;
   }
-
-  .greeting{
+  /* .greeting{
+    display: flex;
     text-align: center;
-  }
+    justify-content: center;
+  } */
 
   footer{
     display: flex;
